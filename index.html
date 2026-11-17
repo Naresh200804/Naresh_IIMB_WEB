@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Naresh Kumar — BBA student at IIM Bangalore. Exploring digital business, entrepreneurship, and technology through real-world experience.">
+  <title>Naresh Kumar — Still Becoming. Always Exploring.</title>
+  
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif), Manrope (Clean Modern Body), Caveat (Personal Handwritten Notes) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =================================================================
+       NAVIGATION
+       Fixed top header with pure CSS responsive navigation
+  ================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Naresh Kumar Home">
+        <span class="brand-title">NARESH KUMAR</span>
+        <span class="brand-sub">IIM Bangalore &bull; BBA 2029</span>
+      </a>
+
+      <!-- Pure CSS Mobile Menu Toggle (no JavaScript required) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">HOME</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+          <li><a href="#education" class="nav-link">EDUCATION</a></li>
+          <li><a href="#skills" class="nav-link">SKILLS</a></li>
+          <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =================================================================
+         SECTION 1 — HERO / INTRODUCTION
+         Split-screen editorial layout with authentic photo & headline
+    ================================================================== -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-container">
+        
+        <!-- Left Column: Story Headline & Introduction -->
+        <div class="hero-content">
+          <div class="editorial-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Personal Portfolio &bull; 2026</span>
+          </div>
+
+          <h1 class="hero-title">
+            Still becoming.<br>
+            <span class="hero-title-italic">Always exploring.</span>
+          </h1>
+
+          <p class="hero-annotation">
+            <span class="handwritten">Just getting started...</span>
+          </p>
+
+          <p class="hero-lead">
+            I'm <strong class="text-ivory">Naresh Kumar</strong>, a BBA student at <span class="text-sage">IIM Bangalore</span>, interested in business, entrepreneurship, and technology. I believe every experience has something to teach, and I'm here to discover what comes next.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">
+              <span>Read My Story</span>
+              <span class="btn-arrow" aria-hidden="true">&darr;</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get In Touch</span>
+              <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-meta">
+            <div class="meta-item">
+              <span class="meta-label">Origin</span>
+              <span class="meta-value">Salem, Tamil Nadu</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <span class="meta-label">Current Chapter</span>
+              <span class="meta-value">IIM Bangalore</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <span class="meta-label">Focus</span>
+              <span class="meta-value">Digital Business &amp; Ventures</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Naturally Integrated Photograph -->
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <div class="portrait-frame">
+              <img 
+                src="naresh-kumar.png" 
+                alt="Portrait of Naresh Kumar — BBA student at IIM Bangalore" 
+                class="portrait-img"
+                width="377" 
+                height="377"
+                loading="eager"
+              >
+              <div class="portrait-cinematic-overlay" aria-hidden="true"></div>
+            </div>
+            <div class="portrait-caption">
+              <span class="caption-number">00</span>
+              <span class="caption-text">Naresh Kumar &mdash; Salem to IIM Bangalore</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 2 — ABOUT ME
+         Story-driven narrative rooted in real-world beginnings
+    ================================================================== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        
+        <div class="section-label-wrap">
+          <span class="section-label">01 / ABOUT</span>
+          <span class="section-rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-statement-col">
+            <h2 class="section-heading about-heading">
+              Some of my earliest lessons in business happened outside a classroom.
+            </h2>
+            <div class="handwritten-aside">
+              <span class="handwritten">&ldquo;Salem roots, real counters, practical intuition.&rdquo;</span>
+            </div>
+          </div>
+
+          <div class="about-narrative-col">
+            <div class="story-block">
+              <p class="story-lead">
+                I grew up in Salem, around my father's grocery shop. Being around business from an early age inspired me to start something of my own in the future.
+              </p>
+              <p class="story-body">
+                I'm currently pursuing an undergraduate degree in Digital Business and Entrepreneurship at IIM Bangalore, where I'm learning about business finance, marketing, and entrepreneurship.
+              </p>
+              <p class="story-body">
+                I'm interested in understanding how businesses work, how technology can improve them, and how ideas can become meaningful ventures.
+              </p>
+            </div>
+
+            <!-- Visual Highlight -->
+            <div class="editorial-highlight">
+              <span class="highlight-bullet" aria-hidden="true">&bull;</span>
+              <p class="highlight-text">
+                Business-minded. Curious by nature. Always learning.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 3 — EXPERIENCE
+         Editorial timeline cards showcasing real responsibility
+    ================================================================== -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        
+        <div class="section-label-wrap">
+          <span class="section-label">02 / EXPERIENCE</span>
+          <span class="section-rule" aria-hidden="true"></span>
+        </div>
+
+        <h2 class="section-heading">
+          Every experience leaves you with something.
+        </h2>
+        <p class="section-subtext">
+          Real operations, commercial exposure, and ground-level problem solving.
+        </p>
+
+        <div class="experience-grid">
+          
+          <!-- Experience Card 01 -->
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-tag">
+                <span class="exp-index">01</span>
+                <span class="exp-type">Internship</span>
+              </div>
+              <span class="exp-period">August 2026 &ndash; September 2026</span>
+            </div>
+
+            <h3 class="exp-role">Operations Management Intern</h3>
+            <p class="exp-company">Lighting Store</p>
+
+            <!-- Tasteful Visual Achievement Highlight -->
+            <div class="achievement-banner">
+              <div class="achievement-metric">&#8377;7 Lakh+</div>
+              <div class="achievement-detail">
+                <span class="achievement-title">Deals Closed</span>
+                <span class="achievement-desc">High-value commercial transactions &amp; client retention</span>
+              </div>
+            </div>
+
+            <ul class="exp-list">
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Managed digital marketing campaigns and social media content to drive customer reach and store discovery.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Closed deals worth &#8377;7 lakh+ through structured client communication and tailored product recommendations.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Helped retain existing customers through consistent post-sales service and relationship building.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Made purchasing decisions for premium, fancy lighting products aligned with customer demand trends.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Gained firsthand exposure to international trade and importing products directly from China.</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Experience Card 02 -->
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-tag">
+                <span class="exp-index">02</span>
+                <span class="exp-type">Family Enterprise</span>
+              </div>
+              <span class="exp-period">Present</span>
+            </div>
+
+            <h3 class="exp-role">Business Manager</h3>
+            <p class="exp-company">Father's Business</p>
+
+            <!-- Automation & Practical Experience Highlight -->
+            <div class="achievement-banner">
+              <div class="achievement-metric highlight-sage">Automation</div>
+              <div class="achievement-detail">
+                <span class="achievement-title">Custom Billing Software</span>
+                <span class="achievement-desc">Digitized everyday store operations, invoices &amp; records</span>
+              </div>
+            </div>
+
+            <ul class="exp-list">
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Handle day-to-day business billing, customer orders, and operational logistics.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Manage customer retention through trust, attentive service, and community goodwill.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Built billing automation software for the business, reducing manual errors and saving daily operational hours.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Gained rigorous practical experience in accounting, cash flow tracking, and advanced Excel.</span>
+              </li>
+              <li>
+                <span class="list-bullet" aria-hidden="true">&mdash;</span>
+                <span>Developed resilient negotiation, communication, and hands-on business management skills.</span>
+              </li>
+            </ul>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 4 — EDUCATION
+         Clean chronological timeline with academic rigor
+    ================================================================== -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        
+        <div class="section-label-wrap">
+          <span class="section-label">03 / EDUCATION</span>
+          <span class="section-rule" aria-hidden="true"></span>
+        </div>
+
+        <h2 class="section-heading">
+          The learning never really stops.
+        </h2>
+        <p class="section-subtext">
+          Foundational commerce training followed by premier institute management pedagogy.
+        </p>
+
+        <div class="edu-timeline">
+          
+          <!-- Education Item 01 -->
+          <div class="edu-item">
+            <div class="edu-timeline-aside">
+              <span class="edu-year">2024 &ndash; 2029</span>
+              <span class="edu-status">In Progress</span>
+            </div>
+            <div class="edu-timeline-node" aria-hidden="true">
+              <span class="node-dot"></span>
+              <span class="node-line"></span>
+            </div>
+            <div class="edu-timeline-body">
+              <div class="edu-card">
+                <span class="edu-institution-tag">Higher Education</span>
+                <h3 class="edu-degree">Bachelor of Business Administration (BBA)</h3>
+                <p class="edu-institution">IIM Bangalore</p>
+                <p class="edu-specialization">Digital Business and Entrepreneurship</p>
+                <p class="edu-note">Expected completion: 2029</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Item 02 -->
+          <div class="edu-item">
+            <div class="edu-timeline-aside">
+              <span class="edu-year">2024</span>
+              <span class="edu-status">ISC Board</span>
+            </div>
+            <div class="edu-timeline-node" aria-hidden="true">
+              <span class="node-dot"></span>
+              <span class="node-line"></span>
+            </div>
+            <div class="edu-timeline-body">
+              <div class="edu-card">
+                <div class="edu-card-top">
+                  <div>
+                    <h3 class="edu-degree">Senior Secondary Education (ISC)</h3>
+                    <p class="edu-institution">J.R. Cambridge School</p>
+                    <p class="edu-specialization">Commerce Stream</p>
+                  </div>
+                  <div class="score-badge">
+                    <span class="score-num">89.4%</span>
+                    <span class="score-label">Graduated</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Item 03 -->
+          <div class="edu-item">
+            <div class="edu-timeline-aside">
+              <span class="edu-year">2022</span>
+              <span class="edu-status">ICSE Board</span>
+            </div>
+            <div class="edu-timeline-node" aria-hidden="true">
+              <span class="node-dot"></span>
+            </div>
+            <div class="edu-timeline-body">
+              <div class="edu-card">
+                <div class="edu-card-top">
+                  <div>
+                    <h3 class="edu-degree">Secondary Education (ICSE)</h3>
+                    <p class="edu-institution">J.R. Cambridge School</p>
+                    <p class="edu-specialization">Foundational Academics</p>
+                  </div>
+                  <div class="score-badge">
+                    <span class="score-num">91.4%</span>
+                    <span class="score-label">Graduated</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 5 — SKILLS & LANGUAGES
+         Minimal, honest, and human presentation without fake progress bars
+    ================================================================== -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        
+        <div class="section-label-wrap">
+          <span class="section-label">04 / SKILLS</span>
+          <span class="section-rule" aria-hidden="true"></span>
+        </div>
+
+        <h2 class="section-heading">
+          Things I've learnt. Things I'm still learning.
+        </h2>
+        <p class="section-subtext">
+          Grounded capabilities developed through business practice and academic coursework.
+        </p>
+
+        <!-- Core Competencies Grid -->
+        <div class="skills-grid">
+          
+          <div class="skill-tile">
+            <span class="skill-num">01</span>
+            <h3 class="skill-name">Research</h3>
+            <p class="skill-desc">Market analysis, customer psychology, and identifying emerging industry opportunities.</p>
+          </div>
+
+          <div class="skill-tile">
+            <span class="skill-num">02</span>
+            <h3 class="skill-name">Digital Analytics</h3>
+            <p class="skill-desc">Data interpretation, campaign tracking, and evaluating operational performance metrics.</p>
+          </div>
+
+          <div class="skill-tile">
+            <span class="skill-num">03</span>
+            <h3 class="skill-name">Communication</h3>
+            <p class="skill-desc">Negotiation with suppliers, high-value client deals, and cross-cultural business dialogue.</p>
+          </div>
+
+          <div class="skill-tile">
+            <span class="skill-num">04</span>
+            <h3 class="skill-name">Social Media</h3>
+            <p class="skill-desc">Content creation, brand positioning, and organic audience engagement strategies.</p>
+          </div>
+
+          <div class="skill-tile">
+            <span class="skill-num">05</span>
+            <h3 class="skill-name">Management</h3>
+            <p class="skill-desc">Order workflows, inventory tracking, customer retention, and retail store management.</p>
+          </div>
+
+          <div class="skill-tile">
+            <span class="skill-num">06</span>
+            <h3 class="skill-name">Financial Consulting</h3>
+            <p class="skill-desc">Business finance fundamentals, practical accounting, margins, and cost analysis.</p>
+          </div>
+
+        </div>
+
+        <!-- Languages Subsection -->
+        <div class="languages-block">
+          <div class="languages-header">
+            <h3 class="languages-title">Languages</h3>
+            <p class="languages-sub">Connecting across cultures, clients, and communities.</p>
+          </div>
+
+          <div class="languages-list">
+            <div class="lang-pill">
+              <span class="lang-name">English</span>
+              <span class="lang-detail">Professional &bull; Academic</span>
+            </div>
+            <div class="lang-pill">
+              <span class="lang-name">Hindi</span>
+              <span class="lang-detail">Fluent &bull; Conversational</span>
+            </div>
+            <div class="lang-pill">
+              <span class="lang-name">Tamil</span>
+              <span class="lang-detail">Native &bull; Regional Commerce</span>
+            </div>
+            <div class="lang-pill">
+              <span class="lang-name">Marwadi</span>
+              <span class="lang-detail">Heritage &bull; Business Network</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 6 — PERSONAL PHILOSOPHY
+         Cinematic editorial reflection inspired by ZNMD ethos
+    ================================================================== -->
+    <section class="section philosophy-section" aria-label="Personal Philosophy">
+      <div class="container philosophy-container">
+        
+        <div class="philosophy-frame">
+          <div class="philosophy-label-wrap">
+            <span class="section-label">05 / PERSPECTIVE</span>
+          </div>
+
+          <blockquote class="philosophy-quote">
+            &ldquo;I'm not here because I've figured everything out. I'm here because I'm curious about everything ahead.&rdquo;
+          </blockquote>
+
+          <div class="philosophy-divider" aria-hidden="true">
+            <span class="philosophy-line"></span>
+            <span class="philosophy-diamond">&loz;</span>
+            <span class="philosophy-line"></span>
+          </div>
+
+          <p class="philosophy-subquote">
+            There's always something new to learn, something worth building, and another experience waiting to shape the journey.
+          </p>
+
+          <p class="philosophy-annotation">
+            <span class="handwritten">Enjoy the process of becoming.</span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 7 — CONTACT
+         Minimal, warm, and inviting contact channels
+    ================================================================== -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-container">
+        
+        <div class="section-label-wrap">
+          <span class="section-label">06 / CONTACT</span>
+          <span class="section-rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="contact-grid">
+          
+          <div class="contact-statement">
+            <h2 class="section-heading">
+              Maybe our paths cross somewhere.
+            </h2>
+            <p class="contact-support-text">
+              Open to meaningful conversations, learning opportunities, collaborations, and meeting people who enjoy building things.
+            </p>
+            <div class="contact-note">
+              <span class="handwritten">&ldquo;A good conversation is often where the next idea begins.&rdquo;</span>
+            </div>
+          </div>
+
+          <div class="contact-channels">
+            
+            <a href="mailto:nareks1004@gmail.com" class="contact-card">
+              <div class="contact-card-icon" aria-hidden="true">&#9993;</div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Email</span>
+                <span class="contact-card-value">nareks1004@gmail.com</span>
+              </div>
+              <span class="contact-card-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+
+            <a href="tel:9042681195" class="contact-card">
+              <div class="contact-card-icon" aria-hidden="true">&#9742;</div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Phone</span>
+                <span class="contact-card-value">+91 90426 81195</span>
+              </div>
+              <span class="contact-card-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+
+            <div class="contact-location-card">
+              <div class="contact-card-icon" aria-hidden="true">&#9678;</div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Based in</span>
+                <span class="contact-card-value">Salem &amp; IIM Bangalore, India</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =================================================================
+       FOOTER
+       Reflective parting note and copyright
+  ================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-story">
+        &ldquo;The story doesn't end here. It's just where it stands today.&rdquo;
+      </p>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Naresh Kumar</p>
+        <p class="footer-tagline">Designed with intent &bull; Built with HTML5 &amp; CSS3</p>
+        <a href="#home" class="footer-top-link" aria-label="Return to top of page">
+          <span>Back to Top</span>
+          <span aria-hidden="true">&uarr;</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
